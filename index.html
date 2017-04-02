@@ -4,6 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
 
@@ -23,24 +27,22 @@
 
       <!--NAVBAR-->
       <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#home">EDWARD ROH</a>
+                <a class="navbar-brand" href="#">EDWARD ROH</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contacts">CONTACT</a></li>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#portfolio">PORTFOLIO</a></li>
+                  <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -61,25 +63,25 @@
 
 
     <!--SKILLS-->
-    <div class="container-fluid" id="skills">
+    <div class="container" id="skills">
       <h3>SKILLS</h3>
       <div id="skill-section" class="row">
-        <div id="skill-thumb" class="col-md-1">
+        <div id="skill-thumb" class="col-sm-4 col-md-1">
           <img src="http://res.cloudinary.com/sketchgoddess/image/upload/v1473695392/Portfolio/html5.png">
         </div>
-        <div id="skill-thumb" class="col-md-1">
+        <div id="skill-thumb" class="col-sm-4 col-md-1">
           <img src="http://res.cloudinary.com/sketchgoddess/image/upload/v1473695391/Portfolio/CSS3.png">
         </div>
-        <div id="skill-thumb" class="col-md-1">
+        <div id="skill-thumb" class="col-sm-4 col-md-1">
           <img src="http://res.cloudinary.com/sketchgoddess/image/upload/v1473695754/Portfolio/SASS.png">
         </div>
-        <div id="skill-thumb" class="col-md-1">
+        <div id="skill-thumb" class="col-sm-4 col-md-1">
           <img src="http://res.cloudinary.com/sketchgoddess/image/upload/v1473695391/Portfolio/Bootstrap.png">
         </div>
-        <div id="skill-thumb" class="col-md-1">
+        <div id="skill-thumb" class="col-sm-4 col-md-1">
           <img src="http://res.cloudinary.com/sketchgoddess/image/upload/v1473695391/Portfolio/JavaScript.png">
         </div>
-        <div id="skill-thumb" class="col-md-1">
+        <div id="skill-thumb" class="col-sm-4 col-md-1">
           <img src="http://res.cloudinary.com/sketchgoddess/image/upload/v1473695391/Portfolio/jQuery.png">
         </div>
       </div>
@@ -92,7 +94,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="thumb-container clearfix">
-          <a class="thumb-unit" href="123">
+          <a class="thumb-unit" href="">
             <div class="thumb-overlay">
               <p class="text">Coming Soon!</p>
             </div>
@@ -102,7 +104,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="thumb-container clearfix">
-          <a class="thumb-unit" href="123">
+          <a class="thumb-unit" href="">
             <div class="thumb-overlay">
               <p class="text">Coming Soon!</p>
             </div>
@@ -112,7 +114,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="thumb-container clearfix">
-          <a class="thumb-unit" href="123">
+          <a class="thumb-unit" href="">
             <div class="thumb-overlay">
               <p class="text">Coming Soon!</p>
             </div>
@@ -129,7 +131,7 @@
 
       <div class="form">
       <div class="contact-info">
-        <form action="https://formspree.io/edroh90@gmail.com"
+        <form action="https://formspree.io/edward,roh@gmail.com"
             method="POST">
           <input type="text" name="name" placeholder="Name"></br>
           <input type="email" name="_replyto" placeholder="Email Address">

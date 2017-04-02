@@ -14,6 +14,10 @@ html, body {
   color: #a51010 !important;
 }
 
+.navbar-brand:hover {
+  filter: contrast(200%);
+}
+
 .navbar-inverse {
   font-size: 18px;
   background: transparent linear-gradient(
@@ -22,13 +26,14 @@ html, body {
       );
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav li a {
   color: #c1cdc1;
+  position: static;
 }
 
 /**JUMBOTRON**/
 .jumbotron {
-  height: 650px;
+  height: 700px;
   text-align: center;
   background: linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -55,7 +60,6 @@ html, body {
 
 #ref-links {
   color: #c1cdc1;
-
 }
 
 #ref-links a {
@@ -63,11 +67,17 @@ html, body {
   color: #0077B5;
 }
 
+#ref-links a i:hover {
+  -webkit-filter: contrast(250%);
+	filter: contrast(250%);
+}
+
+
 /**SKILLS**/
 
 #skills h3 {
-  padding-top: 40px;
-  padding-bottom: 70px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   font-family: 'Amatic SC', cursive;
   font-size: 70px;
   display: flex;
@@ -76,19 +86,22 @@ html, body {
 
 #skill-section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 90px;
 }
 
 #skill-thumb {
-  margin: 0 20px;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
 }
-
 
 
 /**PORTFOLIO**/
 
 #portfolio {
+  padding-top: 85px;
   display: block;
   text-align: center;
 }
@@ -103,13 +116,21 @@ html, body {
 
 #portfolio .thumb-container {
   margin-top: 50px;
-  margin-bottom: 90px;
+  padding-bottom: 140px;
 }
 
 .thumb-overlay {
   background-image: url("temp-pic.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  box-sizing: border-box;
+  border: 2px solid black;
+  height: 250px;
+}
+
+.thumb-overlay:hover {
+  -webkit-filter: grayscale(120%) blur(1.5px);
+  filter: grayscale(120%) blur(1.5px);
 }
 
 .text {
@@ -119,16 +140,12 @@ html, body {
   font-size: 40px;
 }
 
-#portfolio .thumb-container .thumb-unit .thumb-overlay{
-  box-sizing: border-box;
-  border: 2px solid black;
-  height: 250px;
-}
-
 
 /**CONTACT**/
 
 #contact {
+  padding-top: 50px;
+  padding-bottom: 40px;
   text-align: center;
   margin-bottom: 110px;
 }
@@ -159,6 +176,11 @@ html, body {
   font-family: 'Bitter', serif;
 }
 
+.submit:hover {
+  background-color: #0077B5;
+  color: white;
+}
+
 
 /**FOOTER**/
 
@@ -171,3 +193,6 @@ footer {
   font-size: 18px;
   color: #c1cdc1;
 }
+
+
+/**MEDIA**/
