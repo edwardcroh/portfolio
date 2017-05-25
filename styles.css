@@ -104,6 +104,7 @@ html, body {
   padding-top: 85px;
   display: block;
   text-align: center;
+  padding-bottom: 150px;
 }
 
 #portfolio h3 {
@@ -116,19 +117,44 @@ html, body {
 
 #portfolio .thumb-container {
   margin-top: 50px;
-  padding-bottom: 140px;
 }
 
-.thumb-overlay {
-  background-image: url("temp-pic.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+#thumb-overlay-pomo {
+  background-image: url("./images/pomo-preview.jpg");
+  background-size: contain;
+  background-color: #A5DAE2;
+}
+
+#thumb-overlay-todo {
+  background-image: url("./images/todo-preview.jpg");
+  background-size: contain;
+}
+
+#thumb-overlay-3 {
+  background-image: url("./images/temp-pic.jpg");
+}
+
+#thumb-overlay-4 {
+  background-image: url("./images/temp-pic.jpg");
+}
+
+#thumb-overlay-5 {
+  background-image: url("./images/temp-pic.jpg");
+}
+
+#thumb-overlay-6 {
+  background-image: url("./images/temp-pic.jpg");
+}
+
+.prof-panel {
   box-sizing: border-box;
   border: 2px solid black;
   height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.thumb-overlay:hover {
+.prof-panel:hover {
   -webkit-filter: grayscale(120%) blur(1.5px);
   filter: grayscale(120%) blur(1.5px);
 }
@@ -136,7 +162,6 @@ html, body {
 .text {
   color: #a51010;
   text-shadow: 2px 2.5px #501784;
-  margin-top: 85px;
   font-size: 40px;
 }
 
