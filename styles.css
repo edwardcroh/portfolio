@@ -130,8 +130,8 @@ html, body {
   background-size: contain;
 }
 
-#thumb-overlay-3 {
-  background-image: url("./images/temp-pic.jpg");
+#thumb-overlay-yelpcamp {
+  background-image: url("./images/yelpcamp-preview.png");
 }
 
 #thumb-overlay-4 {
