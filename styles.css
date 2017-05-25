@@ -132,6 +132,7 @@ html, body {
 
 #thumb-overlay-yelpcamp {
   background-image: url("./images/yelpcamp-preview.png");
+  background-size: contain;
 }
 
 #thumb-overlay-4 {
