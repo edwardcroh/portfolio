@@ -115,8 +115,14 @@ html, body {
   padding-bottom: 30px;
 }
 
-#portfolio .thumb-container {
+.thumb-container {
   margin-top: 50px;
+  box-shadow: 5px 5px 2px #CCC;
+}
+
+.thumb-container:hover {
+  box-shadow: 8px 8px 3.5px #CCC;
+  transform: translateY(-0.3em);
 }
 
 #thumb-overlay-pomo {
@@ -148,8 +154,6 @@ html, body {
 }
 
 .prof-panel {
-  box-sizing: border-box;
-  border: 2px solid black;
   height: 250px;
   background-repeat: no-repeat;
   background-position: center;
@@ -160,11 +164,14 @@ html, body {
   filter: grayscale(120%) blur(1.5px);
 }
 
+/*
 .text {
   color: #a51010;
   text-shadow: 2px 2.5px #501784;
   font-size: 40px;
+  padding-top: 50px;
 }
+*/
 
 
 /**CONTACT**/
